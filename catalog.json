@@ -1,6 +1,62 @@
 {
   "schema": 1,
-  "adapters": [],
+  "adapters": [
+    {
+      "id": "qwc_official_probe_a",
+      "name": "QWC Official API Probe A",
+      "coin": "QWC",
+      "unit": "H/s",
+      "base": "https://pool.qwertycoin.org",
+      "miner": "/api/miner/{wallet}",
+      "hash": "hashrate",
+      "factor": 1,
+      "notes": "UNVERIFIED PATH PROBE ONLY: Not a confirmed QWC API. HTTP 200 JSON would show path reachable; hashrate field and worker schema still unverified. Enable one at a time and turn off after test."
+    },
+    {
+      "id": "qwc_official_probe_b",
+      "name": "QWC Official API Probe B",
+      "coin": "QWC",
+      "unit": "H/s",
+      "base": "https://pool.qwertycoin.org",
+      "miner": "/api/miner?address={wallet}",
+      "hash": "hashrate",
+      "factor": 1,
+      "notes": "UNVERIFIED PATH PROBE ONLY: Not a confirmed QWC API. HTTP 200 JSON would show path reachable; hashrate field and worker schema still unverified. Enable one at a time and turn off after test."
+    },
+    {
+      "id": "qwc_official_probe_c",
+      "name": "QWC Official API Probe C",
+      "coin": "QWC",
+      "unit": "H/s",
+      "base": "https://pool.qwertycoin.org",
+      "miner": "/api/miner_stats?address={wallet}",
+      "hash": "hashrate",
+      "factor": 1,
+      "notes": "UNVERIFIED PATH PROBE ONLY: Not a confirmed QWC API. HTTP 200 JSON would show path reachable; hashrate field and worker schema still unverified. Enable one at a time and turn off after test."
+    },
+    {
+      "id": "qwc_official_probe_d",
+      "name": "QWC Official API Probe D",
+      "coin": "QWC",
+      "unit": "H/s",
+      "base": "https://pool.qwertycoin.org",
+      "miner": "/api/miners/{wallet}",
+      "hash": "hashrate",
+      "factor": 1,
+      "notes": "UNVERIFIED PATH PROBE ONLY: Not a confirmed QWC API. HTTP 200 JSON would show path reachable; hashrate field and worker schema still unverified. Enable one at a time and turn off after test."
+    },
+    {
+      "id": "qwc_official_probe_e",
+      "name": "QWC Official API Probe E",
+      "coin": "QWC",
+      "unit": "H/s",
+      "base": "https://pool.qwertycoin.org",
+      "miner": "/api/stats_address?address={wallet}",
+      "hash": "hashrate",
+      "factor": 1,
+      "notes": "UNVERIFIED PATH PROBE ONLY: Not a confirmed QWC API. HTTP 200 JSON would show path reachable; hashrate field and worker schema still unverified. Enable one at a time and turn off after test."
+    }
+  ],
   "pools": [
     {
       "id": "qwc_qwertycoin_org",
