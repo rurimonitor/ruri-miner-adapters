@@ -1,4 +1,23 @@
 {
   "schema": 1,
-  "adapters": []
+  "adapters": [
+    {
+      "id": "2miners_etc",
+      "name": "2Miners ETC [GITHUB TEST]",
+      "coin": "ETC",
+      "unit": "H/s",
+      "base": "https://etc.2miners.com",
+      "miner": "/api/accounts/{wallet}",
+      "pool": "/api/stats",
+      "hash": "currentHashrate",
+      "workers": "workers",
+      "worker_name": "name",
+      "worker_hash": "hashrate",
+      "accepted": "validShares",
+      "rejected": "invalidShares",
+      "pool_hash": "hashrate",
+      "factor": 1,
+      "notes": "GitHub remote catalog test: display-name override only; API unchanged."
+    }
+  ]
 }
