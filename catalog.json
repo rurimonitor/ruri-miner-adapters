@@ -1,23 +1,4 @@
 {
   "schema": 1,
-  "adapters": [
-    {
-      "id": "2miners_etc",
-      "name": "2Miners ETC",
-      "coin": "ETC",
-      "unit": "H/s",
-      "base": "https://etc.2miners.com",
-      "miner": "/api/accounts/{wallet}",
-      "pool": "/api/stats",
-      "hash": "currentHashrate",
-      "workers": "workers",
-      "worker_name": "name",
-      "worker_hash": "hashrate",
-      "accepted": "validShares",
-      "rejected": "invalidShares",
-      "pool_hash": "hashrate",
-      "factor": 1,
-      "notes": "Experimental. Official documented API; exact coin host and JSON fields require real-wallet validation; no login required."
-    }
-  ]
+  "adapters": []
 }
