@@ -3,7 +3,7 @@
   "adapters": [
     {
       "id": "2miners_etc",
-      "name": "2Miners ETC [GITHUB TEST]",
+      "name": "2Miners ETC",
       "coin": "ETC",
       "unit": "H/s",
       "base": "https://etc.2miners.com",
@@ -17,7 +17,7 @@
       "rejected": "invalidShares",
       "pool_hash": "hashrate",
       "factor": 1,
-      "notes": "GitHub remote catalog test: display-name override only; API unchanged."
+      "notes": "Experimental. Official documented API; exact coin host and JSON fields require real-wallet validation; no login required."
     }
   ]
 }
