@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "latest_version": "0.2.52",
+  "latest_version": "0.2.69",
   "github_latest_version": "0.1.0",
-  "notice_id": "github-data-0.1.0-test",
+  "notice_id": "pool-audit-20261018-test",
   "new_pools": 0,
-  "message_ko": "GitHub 풀/API 데이터 버전 0.1.0 테스트입니다.",
-  "message_en": "GitHub pool/API data version 0.1.0 test.",
+  "message_ko": "풀 조사 119건 반영 준비 및 원격 업데이트 동작 테스트. 기존 서명된 catalog를 사용하며 최신 조사 내용은 아직 원격 catalog에 반영되지 않았습니다.",
+  "message_en": "Remote update test for the 119-record pool audit. The previously signed catalog is used; new audit results are not yet published in the remote catalog.",
   "release_url": "https://github.com/rurimonitor/ruri-miner-adapters/releases"
 }
