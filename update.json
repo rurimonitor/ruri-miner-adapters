@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "latest_version": "0.2.69",
+  "github_latest_version": "0.1.2",
+  "notice_id": "dev-0.2.69-catalog-0.1.2",
+  "new_pools": 0,
+  "message_ko": "개발 카탈로그 0.1.2 테스트. 이전 0.1.1에서 빠졌던 Kryptex LTC/ETC 원격 어댑터를 추가했습니다. Kryptex API 엔드포인트는 확인됐지만 개인 해시 필드 매핑은 아직 재점검 상태입니다.",
+  "message_en": "Development catalog 0.1.2. Adds the Kryptex LTC/ETC remote adapters omitted from 0.1.1. API endpoints are confirmed; personal-hash field mapping remains under recheck.",
+  "release_url": "https://github.com/rurimonitor/ruri-miner-adapters/releases"
+}
