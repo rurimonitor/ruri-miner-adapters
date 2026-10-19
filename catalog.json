@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "catalog_version": "0.1.1",
+  "adapters": [
+    {
+      "id": "2miners_etc",
+      "name": "2Miners ETC",
+      "coin": "ETC",
+      "unit": "H/s",
+      "base": "https://etc.2miners.com",
+      "miner": "/api/accounts/{wallet}",
+      "pool": "/api/stats",
+      "hash": "currentHashrate",
+      "workers": "workers",
+      "worker_name": "name",
+      "worker_hash": "hashrate",
+      "pool_hash": "hashrate",
+      "factor": 1,
+      "notes": "v0.2.49 audited: official 2Miners account API. Worker dictionaries are normalized by AdapterEngine. Share counts are not read from the account endpoint; unsupported values display as —."
+    },
+    {
+      "id": "2miners_rvn",
+      "name": "2Miners RVN",
+      "coin": "RVN",
+      "unit": "H/s",
+      "base": "https://rvn.2miners.com",
+      "miner": "/api/accounts/{wallet}",
+      "pool": "/api/stats",
+      "hash": "currentHashrate",
+      "workers": "workers",
+      "worker_name": "name",
+      "worker_hash": "hashrate",
+      "pool_hash": "hashrate",
+      "factor": 1,
+      "notes": "v0.2.49 audited: official 2Miners account API. Worker dictionaries are normalized by AdapterEngine. Share counts are not read from the account endpoint; unsupported values display as —."
+    }
+  ],
+  "pools": []
+}
