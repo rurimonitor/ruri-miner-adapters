@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "latest_version": "0.2.84",
+  "github_latest_version": "0.1.1",
+  "notice_id": "dev-0.2.84-catalog-0.1.1",
+  "new_pools": 2,
+  "message_ko": "원격 카탈로그 업데이트 테스트: 2Miners ETC와 2Miners RVN을 추가합니다.",
+  "message_en": "Remote catalog update test: adds 2Miners ETC and 2Miners RVN.",
+  "release_url": "https://github.com/rurimonitor/ruri-miner-adapters/releases"
+}
