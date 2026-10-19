@@ -1,0 +1,8 @@
+이 폴더의 catalog.json은 아직 서명 전입니다.
+catalog.sig 없이 GitHub에 적용하지 마세요.
+
+RURI 개발용 v2 개인키를 별도 보관 위치에서 준비한 뒤 프로젝트 루트에서:
+  ./tools/sign_catalog.sh <이 폴더>/catalog.json <개인키.pem> <이 폴더>/catalog.sig
+
+서명 후 catalog.json + catalog.sig + update.json을 함께 올립니다.
+개인키는 앱 소스/APK/GitHub에 넣지 않습니다.
