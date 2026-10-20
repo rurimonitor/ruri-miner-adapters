@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "catalog_version": "0.1.1",
+  "catalog_version": "0.1.2",
   "adapters": [
     {
       "id": "2miners_etc",
