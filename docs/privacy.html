@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RURI MINER MONITOR 개인정보처리방침 / Privacy Policy</title>
+  <style>
+    body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:860px;margin:40px auto;padding:0 20px;line-height:1.7;color:#172033;background:#fff}
+    h1,h2{color:#0b5161} .box{background:#f4f8fa;border:1px solid #dce9ee;border-radius:12px;padding:16px} small{color:#667085} a{color:#087f8c}
+  </style>
+</head>
+<body>
+<h1>RURI MINER MONITOR 개인정보처리방침</h1>
+<p><strong>시행일: 2026-10-20</strong></p>
+<p>RURI MINER MONITOR(이하 “앱”)은 채굴 풀의 공개 API 또는 공개 웹 조회 기능을 이용해 사용자가 등록한 채굴 주소/계정의 상태를 확인하는 모니터링 앱입니다. 앱은 별도의 회원 계정이나 개발자 운영 서버를 요구하지 않으며, 주요 사용자 설정과 모니터링 데이터는 기기에 저장됩니다.</p>
+
+<h2>1. 앱이 처리하는 정보</h2>
+<div class="box">
+<ul>
+  <li><strong>사용자가 직접 입력하는 정보:</strong> 공개 지갑 주소 또는 마이너/채굴 계정 식별자, 선택한 코인/풀, 별칭과 일반 설정.</li>
+  <li><strong>선택적 API 인증정보:</strong> F2Pool 등 일부 공식 API가 요구하는 읽기 전용 토큰. 이러한 토큰은 Android Keystore를 이용해 기기에 암호화 저장되며 일반 백업에 포함하지 않습니다.</li>
+  <li><strong>로컬 모니터링 기록:</strong> 해시레이트, 워커 수, 승인/거부 셰어, API 상태와 오류 요약. 상태 기록은 최대 7일 보관 후 자동 정리됩니다.</li>
+  <li><strong>기기 Support ID:</strong> 오프라인 보상쿠폰을 한 기기에 연결하기 위한 앱 전용 식별자. Android ID 원문을 사용자에게 표시하거나 개발자에게 자동 전송하지 않습니다.</li>
+</ul>
+</div>
+<p>앱은 지갑 개인키, 시드/복구 문구, 지갑 비밀번호, 출금 권한 정보 입력을 요구하지 않습니다.</p>
+
+<h2>2. 네트워크 연결</h2>
+<p>사용자가 등록한 풀을 조회할 때 앱은 해당 채굴 풀의 공식 또는 공개 HTTPS API/웹페이지에 직접 연결할 수 있습니다. 이 과정에서 해당 제3자 서비스는 일반적인 인터넷 통신 과정에서 IP 주소, 요청 시각, 요청 경로 등 접속 정보를 처리할 수 있습니다. 각 풀의 처리방침은 해당 운영자의 정책을 따릅니다.</p>
+<p>앱은 풀/API 설정과 앱 업데이트 정보를 확인하기 위해 GitHub의 공개 저장소에 연결할 수 있습니다. 다운로드되는 풀/API 카탈로그는 앱에서 서명을 검증한 데이터 설정이며, 실행 코드를 내려받아 실행하지 않습니다.</p>
+
+<h2>3. 광고 및 개인정보 동의</h2>
+<p>앱은 Google AdMob을 사용할 수 있습니다. Google Mobile Ads SDK는 광고 제공, 부정 사용 방지, 측정 및 진단을 위해 IP 주소, 기기/앱 식별자, 광고 상호작용, 진단정보 등 Google이 정한 정보를 처리할 수 있습니다.</p>
+<p>해당 지역에서 동의가 필요한 경우 앱은 Google User Messaging Platform(UMP)을 이용해 광고 관련 개인정보 선택을 요청하고 관리합니다. 필요한 경우 앱의 설정 화면에서 광고 개인정보 선택을 다시 열 수 있습니다.</p>
+<p>Google의 데이터 처리에 관한 자세한 내용은 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a> 및 <a href="https://support.google.com/admob/answer/6128543">AdMob 개인정보 관련 안내</a>를 참고하세요.</p>
+
+<h2>4. 백업 및 내보내기</h2>
+<p>사용자가 직접 실행하는 JSON 백업에는 등록 풀, 공개 지갑/마이너 주소와 일부 일반 설정이 포함될 수 있습니다. 개인 커스텀 어댑터 정의, 비밀 API 토큰, 광고/리워드 권한, 상태 기록은 일반 설정 백업 대상에서 제외됩니다. 상태 기록은 사용자가 별도의 CSV 파일로 내보낼 수 있습니다.</p>
+<p>백업 및 CSV 파일은 사용자가 선택한 위치에 저장되며, 앱이 개발자 서버로 자동 업로드하지 않습니다. 백업 파일에는 공개 지갑 주소 등 사용자가 입력한 정보가 포함될 수 있으므로 사용자가 직접 안전하게 보관해야 합니다.</p>
+
+<h2>5. 알림 권한</h2>
+<p>사용자가 해시레이트 하한 알림을 활성화하면 앱은 Android 알림 권한을 요청할 수 있습니다. 알림 권한을 거부해도 앱의 다른 기능은 사용할 수 있으나, 하한 경고 메시지는 표시되지 않을 수 있습니다.</p>
+
+<h2>6. 제보 및 고객지원</h2>
+<p>풀/API 제보 또는 고객지원 기능은 사용자의 이메일 앱을 열어 작성 내용을 사용자가 확인한 뒤 직접 전송하도록 합니다. 앱이 이메일을 자동 발송하지 않습니다. 사용자는 비밀번호, 개인키, 시드 문구, 출금 권한 정보 또는 제한 없는 API 비밀키를 제보에 포함해서는 안 됩니다.</p>
+
+<h2>7. 보관 및 삭제</h2>
+<ul>
+  <li>모니터링 상태 기록: 최대 7일</li>
+  <li>등록 풀/지갑 주소/일반 설정: 사용자가 삭제하거나 앱 데이터를 초기화/삭제할 때까지</li>
+  <li>읽기 전용 API 토큰: 사용자가 삭제하거나 앱 데이터가 삭제될 때까지, Android Keystore 기반 저장</li>
+</ul>
+<p>앱의 ‘처음 설치 상태로 초기화’ 기능 또는 Android의 앱 데이터 삭제/앱 제거 기능을 이용해 로컬 데이터를 삭제할 수 있습니다.</p>
+
+<h2>8. 제3자 서비스</h2>
+<p>앱에서 사용될 수 있는 주요 제3자 서비스는 Google AdMob/UMP, GitHub, 사용자가 선택한 각 채굴 풀의 공개 API 또는 웹 서비스입니다. 제3자 서비스의 데이터 처리에는 해당 서비스의 약관 및 개인정보처리방침이 적용됩니다.</p>
+
+<h2>9. 변경사항</h2>
+<p>기능이나 외부 서비스 사용 방식이 변경되면 본 개인정보처리방침을 수정할 수 있습니다. 중요한 변경이 있는 경우 앱 또는 공개 배포 페이지를 통해 갱신된 방침을 확인할 수 있도록 합니다.</p>
+
+<h2>10. 문의</h2>
+<p>개인정보 관련 문의: <a href="mailto:rurimonitor@gmail.com">rurimonitor@gmail.com</a></p>
+
+<hr>
+<h1>Privacy Policy — RURI MINER MONITOR</h1>
+<p><strong>Effective date: October 20, 2026</strong></p>
+<p>RURI MINER MONITOR is a mining-pool monitoring app that connects to public or official mining-pool APIs and web pages. The app does not require a developer-operated account or backend server. Core settings and monitoring history are stored locally on the device.</p>
+<h2>Information processed</h2>
+<ul>
+  <li>Public wallet addresses or miner/account identifiers entered by the user, selected pool/coin information, aliases and general settings.</li>
+  <li>Optional read-only API tokens required by certain official APIs. These are stored locally using Android Keystore and are excluded from normal backups.</li>
+  <li>Local monitoring history such as hashrate, worker count, accepted/rejected shares, API state and short error details. Status history is retained for up to 7 days.</li>
+  <li>An app-specific Support ID used to bind offline contributor reward codes to one device. The raw Android ID is not silently sent to the developer.</li>
+</ul>
+<p>The app does not request wallet private keys, seed/recovery phrases, wallet passwords, or withdrawal credentials.</p>
+<h2>Network and third-party services</h2>
+<p>The app may connect directly to mining-pool HTTPS APIs/web pages chosen by the user. Those services may process ordinary connection information such as IP address and request metadata under their own policies. The app may also access a public GitHub repository for signed pool/API catalog data and app update metadata.</p>
+<h2>Advertising and consent</h2>
+<p>The app may use Google AdMob. Google Mobile Ads SDK may process information such as IP address, device/app identifiers, ad interactions and diagnostics for advertising, fraud prevention, measurement and related purposes. Where required, the app uses Google User Messaging Platform (UMP) to collect and manage advertising privacy choices before requesting ads.</p>
+<p>See <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543">AdMob privacy information</a>.</p>
+<h2>Backups and exports</h2>
+<p>User-initiated JSON backups can include registered pools, public wallet/miner addresses and some general settings. Personal custom-adapter definitions, secret API tokens, ad/reward entitlements and status history are excluded from normal settings backups. Monitoring history can be exported separately as CSV. These files are saved to a location chosen by the user and are not silently uploaded to the developer.</p>
+<h2>Notifications</h2>
+<p>If lower-hashrate alerts are enabled, the app may request Android notification permission. Denying notification permission does not block other app functions, but warning notifications may not be shown.</p>
+<h2>Support and reports</h2>
+<p>Pool/API reports and support actions open the user's email app. Nothing is sent silently. Users should never include passwords, private keys, seed phrases, withdrawal credentials or unrestricted API secrets.</p>
+<h2>Contact</h2>
+<p><a href="mailto:rurimonitor@gmail.com">rurimonitor@gmail.com</a></p>
+<p><small>This page describes the current app design and should be updated whenever data practices or third-party SDK usage changes.</small></p>
+</body>
+</html>
