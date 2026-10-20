@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "latest_version": "0.2.103",
+  "latest_version": "0.2.104",
   "github_latest_version": "0.1.2",
-  "notice_id": "beta-0.2.103-catalog-0.1.2",
+  "notice_id": "beta-0.2.104-catalog-0.1.2",
   "new_pools": 2,
-  "message_ko": "베타 원격 카탈로그 테스트: 2Miners ETC와 2Miners RVN 표준 풀 어댑터를 추가합니다.",
-  "message_en": "Beta remote catalog test: adds the standard 2Miners ETC and 2Miners RVN adapters.",
+  "message_ko": "베타 테스트 업데이트: v0.2.104 시나리오 점검판과 원격 카탈로그 0.1.2(2Miners ETC/RVN)를 사용합니다.  드디어 베타까지 왔다.",
+  "message_en": "Beta test update: use the v0.2.104 scenario build with remote catalog 0.1.2 (2Miners ETC/RVN).",
   "release_url": "https://github.com/rurimonitor/ruri-miner-adapters/releases"
 }
