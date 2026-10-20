@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>RURI MINER MONITOR Privacy Policy / 개인정보처리방침</title>
+<style>
+:root{color-scheme:light dark} body{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;max-width:900px;margin:36px auto;padding:0 20px;line-height:1.72;color:#172033;background:#fff} h1,h2{color:#0b5161} a{color:#087f8c}.box{background:#f4f8fa;border:1px solid #dce9ee;border-radius:12px;padding:16px}.langbar{position:sticky;top:0;background:rgba(255,255,255,.96);padding:12px 0;border-bottom:1px solid #e7edf0;margin-bottom:22px;z-index:2}.langbar button{font:inherit;padding:8px 14px;margin-right:8px;border:1px solid #b9ccd2;border-radius:999px;background:#fff;color:#0b5161;cursor:pointer}.langbar button.active{background:#0b5161;color:#fff}.lang-pane[hidden]{display:none}@media(prefers-color-scheme:dark){body{background:#111923;color:#e8eef2}.box{background:#17232d;border-color:#2d414c}.langbar{background:rgba(17,25,35,.96)}.langbar button{background:#17232d;color:#cceff4;border-color:#42616e}.langbar button.active{background:#35c7d0;color:#082027}h1,h2{color:#55d7df}a{color:#65dce3}}
+</style>
+</head>
+<body>
+<div class="langbar"><a href="privacy-ko.html">한국어</a> &nbsp;|&nbsp; <a href="privacy-en.html">English</a> &nbsp;|&nbsp; <a href="privacy.html">Auto</a></div>
+<section id="en"  lang="en">
+<h1>RURI MINER MONITOR Privacy Policy</h1>
+<p><strong>Effective date: October 20, 2026</strong></p>
+<p>RURI MINER MONITOR (the “App”) is a mining-pool monitoring application that uses public APIs or publicly accessible web lookup functions provided by mining pools to check the status of mining addresses or accounts registered by the user. The App does not require a separate developer-operated user account or backend server. Core user settings and monitoring data are stored on the device.</p>
+<h2>1. Information Processed by the App</h2>
+<div class="box"><ul>
+<li><strong>Information entered directly by the user:</strong> public wallet addresses or miner/mining-account identifiers, selected coins and pools, aliases, and general settings.</li>
+<li><strong>Optional API credentials:</strong> read-only tokens required by certain official APIs such as F2Pool. These tokens are encrypted and stored on the device using Android Keystore and are excluded from normal backups.</li>
+<li><strong>Local monitoring records:</strong> hashrate, worker count, accepted/rejected shares, API status, and short error summaries. Status records are retained for up to 7 days and then automatically cleaned up.</li>
+<li><strong>Device Support ID:</strong> an app-specific identifier used to bind an offline reward coupon to one device. The raw Android ID is not displayed to the user or automatically transmitted to the developer.</li>
+</ul></div>
+<p>The App does not ask users to enter wallet private keys, seed/recovery phrases, wallet passwords, or withdrawal credentials.</p>
+<h2>2. Network Connections</h2>
+<p>When checking a pool registered by the user, the App may connect directly to the mining pool's official or public HTTPS API or web page. During ordinary internet communication, the third-party service may process connection information such as IP address, request time, and request path. The privacy practices of each pool are governed by that operator's own policies.</p>
+<p>The App may connect to a public GitHub repository to retrieve pool/API configuration and app-update information. Downloaded pool/API catalog data is signature-verified by the App and is configuration data only; the App does not download and execute remote executable code.</p>
+<h2>3. Advertising and Privacy Consent</h2>
+<p>The App may use Google AdMob. The Google Mobile Ads SDK may process information defined by Google, including IP address, device/app identifiers, advertising interactions, and diagnostic information, for ad delivery, fraud prevention, measurement, and diagnostics.</p>
+<p>Where consent is required, the App uses Google User Messaging Platform (UMP) to request and manage advertising privacy choices. Where available or required, users can reopen advertising privacy choices from the App's Settings screen.</p>
+<p>For more information about Google's data practices, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://support.google.com/admob/answer/6128543">AdMob privacy information</a>.</p>
+<h2>4. Backups and Exports</h2>
+<p>User-initiated JSON backups may include registered pools, public wallet/miner addresses, and some general settings. Personal custom-adapter definitions, secret API tokens, advertising/reward entitlements, and monitoring status history are excluded from the normal settings backup. Monitoring history may be exported separately by the user as a CSV file.</p>
+<p>Backup and CSV files are saved to a location chosen by the user and are not automatically uploaded to a developer server. Because backup files may contain public wallet addresses or other information entered by the user, users are responsible for storing those files securely.</p>
+<h2>5. Notification Permission</h2>
+<p>If the user enables lower-hashrate alerts, the App may request Android notification permission. Denying notification permission does not block other App functions, but lower-hashrate warning notifications may not be displayed.</p>
+<h2>6. Reports and Support</h2>
+<p>Pool/API reporting and customer-support features open the user's email app so that the user can review the message and send it manually. The App does not send email automatically. Users must not include passwords, private keys, seed phrases, withdrawal credentials, or unrestricted API secret keys in reports or support messages.</p>
+<h2>7. Retention and Deletion</h2>
+<ul><li>Monitoring status records: up to 7 days.</li><li>Registered pools, wallet addresses, and general settings: until deleted by the user or until App data is reset/deleted.</li><li>Read-only API tokens: until deleted by the user or until App data is deleted; stored using Android Keystore.</li></ul>
+<p>Users can delete local App data by using the App's factory-reset function, Android's clear-app-data function, or by uninstalling the App.</p>
+<h2>8. Third-Party Services</h2>
+<p>Major third-party services that may be used by the App include Google AdMob/UMP, GitHub, and the public APIs or web services of mining pools selected by the user. Data processing by third-party services is subject to their own terms and privacy policies.</p>
+<h2>9. Changes to This Policy</h2>
+<p>This Privacy Policy may be updated when App functionality or the use of external services changes. When material changes are made, the updated policy will be made available through the App or the public distribution page.</p>
+<h2>10. Contact</h2>
+<p>Privacy inquiries: <a href="mailto:rurimonitor@gmail.com">rurimonitor@gmail.com</a></p>
+</section>
+</body></html>
