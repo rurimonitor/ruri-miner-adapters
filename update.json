@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "latest_version": "0.2.104",
+  "latest_version": "0.2.105",
   "github_latest_version": "0.1.2",
-  "notice_id": "beta-0.2.104-catalog-0.1.2",
-  "new_pools": 2,
-  "message_ko": "베타 테스트 업데이트: v0.2.104 시나리오 점검판과 원격 카탈로그 0.1.2(2Miners ETC/RVN)를 사용합니다.  드디어 베타까지 왔다.",
-  "message_en": "Beta test update: use the v0.2.104 scenario build with remote catalog 0.1.2 (2Miners ETC/RVN).",
+  "notice_id": "beta2-0.2.105-catalog-0.1.2",
+  "new_pools": 0,
+  "message_ko": "Beta 2 업데이트: App Open 광고 18시간 간격, 홈 전면광고 10회+3분 카운트 정책, 마이너 상태기록 필터 개선, 배포 빌드 R8/리소스 최적화를 적용했습니다. 원격 풀/API 카탈로그는 0.1.2를 유지합니다.",
+  "message_en": "Beta 2 update: adds an 18-hour App Open ad interval, the Home interstitial 10-count + 3-minute policy, compact miner-history filters, and R8/resource optimization for release builds. Remote pool/API catalog remains 0.1.2.",
   "release_url": "https://github.com/rurimonitor/ruri-miner-adapters/releases"
 }
